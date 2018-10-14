@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.baseURL = "http://120.79.229.252:8081/api/v1";
+axios.defaults.baseURL = "http://120.79.66.43:8081/api/v1";
 export const login = params => {
     return axios.post('/user/login', params).then(res => res.data)
 }
